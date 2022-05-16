@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volontaires",
+  "info": {
+    "singularName": "volontaire",
+    "pluralName": "volontaires",
+    "displayName": "Volontaire",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "IDvolontaire": {
+      "type": "uid"
+    },
+    "filiere": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::filiere.filiere"
+    },
+    "dateFin": {
+      "type": "string"
+    },
+    "disponibilite": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disponibilite.disponibilite"
+    }
+  }
+}

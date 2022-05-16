@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filieres",
+  "info": {
+    "singularName": "filiere",
+    "pluralName": "filieres",
+    "displayName": "filiere"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "filiere": {
+      "type": "string"
+    }
+  }
+}

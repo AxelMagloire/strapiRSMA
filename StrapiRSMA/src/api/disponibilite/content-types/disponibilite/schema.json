@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disponibilites",
+  "info": {
+    "singularName": "disponibilite",
+    "pluralName": "disponibilites",
+    "displayName": "disponibilite"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "disponibilite": {
+      "type": "string"
+    }
+  }
+}
