@@ -4,7 +4,8 @@
   "info": {
     "singularName": "filiere",
     "pluralName": "filieres",
-    "displayName": "filiere"
+    "displayName": "filiere",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "filiere": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

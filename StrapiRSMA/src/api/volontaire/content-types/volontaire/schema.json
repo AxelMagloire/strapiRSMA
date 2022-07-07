@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nom": {
-      "type": "string"
-    },
     "photo": {
       "type": "media",
       "multiple": true,
@@ -47,6 +44,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::disponibilite.disponibilite"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "volontaire"
     }
   }
 }
